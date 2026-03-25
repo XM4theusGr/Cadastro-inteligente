@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #e9ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Caixa do formulário */
+.form-container {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Inputs e textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Efeito ao clicar */
+input:focus,
+textarea:focus {
+  border-color: #28a745;
+  outline: none;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
+}
+
+/* Botão */
+button {
+  margin-top: 18px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #28a745;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover do botão */
+button:hover {
+  background: #218838;
+}
